@@ -2206,7 +2206,7 @@ button.swiper-pagination-bullet {
   }
 
   .about__title {
-    font-size: 2.5rem;
+    font-size: 1.875rem;
   }
 
   .about__row {
@@ -2222,7 +2222,7 @@ button.swiper-pagination-bullet {
   }
 
   .assets__title {
-    font-size: 2.1875rem;
+    font-size: 1.875rem;
   }
 
   .connect__column_right {
@@ -2250,7 +2250,7 @@ button.swiper-pagination-bullet {
   }
 
   .models__title {
-    font-size: 2.5rem;
+    font-size: 1.875rem;
   }
 }
 
@@ -2755,7 +2755,7 @@ button.swiper-pagination-bullet {
 
   .footer__rights {
     text-align: left;
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .hero__container::after {
@@ -2812,7 +2812,7 @@ button.swiper-pagination-bullet {
   }
 
   .about__title {
-    font-size: 30px;
+    font-size: 1.875rem;
     line-height: 1.3333333333;
     margin-bottom: 1.125rem;
   }
@@ -2864,7 +2864,7 @@ button.swiper-pagination-bullet {
   }
 
   .assets__title {
-    font-size: 30px;
+    font-size: 1.875rem;
     margin-bottom: 1.875rem;
   }
 
@@ -2949,7 +2949,7 @@ button.swiper-pagination-bullet {
   }
 
   .models__title {
-    font-size: 30px;
+    font-size: 1.875rem;
     margin-bottom: 1.875rem;
   }
 
@@ -3253,15 +3253,15 @@ button.swiper-pagination-bullet {
     }
 }
 
-@supports (font-size: clamp( 2.5rem , 1.9488188976rem  +  3.1496062992vw , 5rem )) {
+@supports (font-size: clamp( 1.875rem , 1.186023622rem  +  3.937007874vw , 5rem )) {
     .about__title {
-      font-size: clamp( 2.5rem , 1.9488188976rem  +  3.1496062992vw , 5rem );
+      font-size: clamp( 1.875rem , 1.186023622rem  +  3.937007874vw , 5rem );
     }
 }
 
-@supports not (font-size: clamp( 2.5rem , 1.9488188976rem  +  3.1496062992vw , 5rem )) {
+@supports not (font-size: clamp( 1.875rem , 1.186023622rem  +  3.937007874vw , 5rem )) {
     .about__title {
-      font-size: calc(2.5rem + 2.5 * (100vw - 17.5rem) / 79.375);
+      font-size: calc(1.875rem + 3.125 * (100vw - 17.5rem) / 79.375);
     }
 }
 
@@ -3297,15 +3297,15 @@ button.swiper-pagination-bullet {
     }
 }
 
-@supports (font-size: clamp( 2.1875rem , 1.9808070866rem  +  1.1811023622vw , 3.125rem )) {
+@supports (font-size: clamp( 1.875rem , 1.5994094488rem  +  1.5748031496vw , 3.125rem )) {
     .assets__title {
-      font-size: clamp( 2.1875rem , 1.9808070866rem  +  1.1811023622vw , 3.125rem );
+      font-size: clamp( 1.875rem , 1.5994094488rem  +  1.5748031496vw , 3.125rem );
     }
 }
 
-@supports not (font-size: clamp( 2.1875rem , 1.9808070866rem  +  1.1811023622vw , 3.125rem )) {
+@supports not (font-size: clamp( 1.875rem , 1.5994094488rem  +  1.5748031496vw , 3.125rem )) {
     .assets__title {
-      font-size: calc(2.1875rem + 0.9375 * (100vw - 17.5rem) / 79.375);
+      font-size: calc(1.875rem + 1.25 * (100vw - 17.5rem) / 79.375);
     }
 }
 
@@ -3381,15 +3381,15 @@ button.swiper-pagination-bullet {
     }
 }
 
-@supports (font-size: clamp( 2.5rem , 1.8248031496rem  +  3.8582677165vw , 5.5625rem )) {
+@supports (font-size: clamp( 1.875rem , 1.062007874rem  +  4.6456692913vw , 5.5625rem )) {
     .models__title {
-      font-size: clamp( 2.5rem , 1.8248031496rem  +  3.8582677165vw , 5.5625rem );
+      font-size: clamp( 1.875rem , 1.062007874rem  +  4.6456692913vw , 5.5625rem );
     }
 }
 
-@supports not (font-size: clamp( 2.5rem , 1.8248031496rem  +  3.8582677165vw , 5.5625rem )) {
+@supports not (font-size: clamp( 1.875rem , 1.062007874rem  +  4.6456692913vw , 5.5625rem )) {
     .models__title {
-      font-size: calc(2.5rem + 3.0625 * (100vw - 17.5rem) / 79.375);
+      font-size: calc(1.875rem + 3.6875 * (100vw - 17.5rem) / 79.375);
     }
 }
 }
