@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20221207155456">
+	<link rel="stylesheet" href="css/style.min.css?_v=20221209031022">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,15 +18,17 @@
 			<div class="header__container">
 				<nav class="header__row">
 					<div class="header__column header__column_logo">
-						<a href="index.html" class="header__logo"><img src="img/main/icons/Logo.svg" alt=""></a>
+						<a href="index.html" class="header__logo">
+							<img src="img/mainpage/main/icons/Logo.svg" alt="">
+						</a>
 					</div>
 					<div class="header__column header__column_menu">
-						<div class="header__open menu-open">
+						<div class="header__open">
 							<div class="header__item">
 								<div class="header__menu menu">
 									<ul class="menu__list">
 										<li class="menu__item">
-											<a href="#" class="menu__link">Про компанію</a>
+											<a href="aboutcompany.html" class="menu__link">Про компанію</a>
 										</li>
 										<li class="menu__item">
 											<a href="#" class="menu__link">Типи конструкцій</a>
@@ -76,22 +78,22 @@
 				</nav>
 			</div>
 			<!-- SCROLL -->
-			<a href="#" data-goto=".hero" id="myBtn" class="link"><span><img src="img/Arrow.svg" alt=""></span></a>
+			<a href="#" data-goto=".wrapper" id="myBtn" class="link"><span><img src="img/mainpage/Arrow.svg" alt=""></span></a>
 		</header>
 		<main class="page">
-			<section class="hero">
+			<section data-prlx-parent class="hero">
 				<div class="hero__container">
 					<div class="hero__body">
 						<h1 class="hero__title title">Виробництво вхідних металевих дверей</h1>
 						<div class="hero__picture picture">
-							<picture><source srcset="img/main/icons/Line-top-vert.webp" type="image/webp"><img class="picture_big" src="img/main/icons/Line-top-vert.png" alt=""></picture>
-							<picture><source srcset="img/main/icons/Line-top-vert-small.webp" type="image/webp"><img class="picture_small" src="img/main/icons/Line-top-vert-small.png" alt=""></picture>
+							<picture><source srcset="img/mainpage/main/icons/Line-top-vert.webp" type="image/webp"><img class="picture_big" src="img/mainpage/main/icons/Line-top-vert.png" alt=""></picture>
+							<picture><source srcset="img/mainpage/main/icons/Line-top-vert-small.webp" type="image/webp"><img class="picture_small" src="img/mainpage/main/icons/Line-top-vert-small.png" alt=""></picture>
 						</div>
 						<div class="hero__button"><a href="" class="btn">Обрати модель</a></div>
 					</div>
 				</div>
-				<div class="hero__image-ibg">
-					<picture><source srcset="img/main/hands.webp" type="image/webp"><img src="img/main/hands.jpg" alt="cover"></picture>
+				<div data-prlx class="hero__image-ibg">
+					<picture><source srcset="img/mainpage/main/hands.webp" type="image/webp"><img src="img/mainpage/main/hands.jpg" alt="cover"></picture>
 				</div>
 			</section>
 			<section class="cards">
@@ -251,7 +253,7 @@
 							<div class="about__column about__column_right">
 								<div class="about__item about__item_img">
 									<div class="about__img">
-										<picture><source srcset="img/about/grinding.webp" type="image/webp"><img src="img/about/grinding.jpg" alt=""></picture>
+										<picture><source srcset="img/mainpage/about/grinding.webp" type="image/webp"><img src="img/mainpage/about/grinding.jpg" alt=""></picture>
 									</div>
 								</div>
 							</div>
@@ -265,7 +267,7 @@
 						<div class="assets__column assets__column_left">
 							<div class="assets__item">
 								<div class="assets__img">
-									<picture><source srcset="img/assets/doors.webp" type="image/webp"><img src="img/assets/doors.png" alt=""></picture>
+									<picture><source srcset="img/mainpage/assets/doors.webp" type="image/webp"><img src="img/mainpage/assets/doors.png" alt=""></picture>
 								</div>
 							</div>
 						</div>
@@ -277,7 +279,7 @@
 										<div class="content-assets__column">
 											<div class="content-assets__item">
 												<div class="content-assets__icon">
-													<picture><source srcset="img/assets/icons/icon-1.webp" type="image/webp"><img src="img/assets/icons/icon-1.jpg" alt=""></picture>
+													<picture><source srcset="img/mainpage/assets/icons/icon-1.webp" type="image/webp"><img src="img/mainpage/assets/icons/icon-1.jpg" alt=""></picture>
 												</div>
 												<div class="content-assets__text">Колектив високопрофесійних фахівців з великим досвідом та високотехнологічне оснащення дозволяють виготовити вхідні двері з металу, що відповідають найвищим вимогам.
 													Виробничий процес максимально автоматизований. У виробництві задіяне новітнє обладнання європейського класу.
@@ -287,7 +289,7 @@
 										<div class="content-assets__column">
 											<div class="content-assets__item">
 												<div class="content-assets__icon">
-													<picture><source srcset="img/assets/icons/icon-2.webp" type="image/webp"><img src="img/assets/icons/icon-2.jpg" alt=""></picture>
+													<picture><source srcset="img/mainpage/assets/icons/icon-2.webp" type="image/webp"><img src="img/mainpage/assets/icons/icon-2.jpg" alt=""></picture>
 												</div>
 												<div class="content-assets__text">Власне автономне промислове підприємство дає можливість здійснити контроль на всіх етапах виробництва та забезпечити безперебійні постачання виробів в необхідних обємах.
 													Одним з головних пріоритетів торгівельної марки Arma є використання у виробничому процесі виключно сертифікованих матеріалів.
@@ -297,7 +299,7 @@
 										<div class="content-assets__column">
 											<div class="content-assets__item">
 												<div class="content-assets__icon">
-													<picture><source srcset="img/assets/icons/icon-3.webp" type="image/webp"><img src="img/assets/icons/icon-3.jpg" alt=""></picture>
+													<picture><source srcset="img/mainpage/assets/icons/icon-3.webp" type="image/webp"><img src="img/mainpage/assets/icons/icon-3.jpg" alt=""></picture>
 												</div>
 												<div class="content-assets__text">Ми постійно працюємо над унікальністю й неповторністю нашої продукції.
 													На кожному етапі роботи, починаючи з оформлення замовлення й закінчуючи доставкою готової продукції, здійснюється контроль якості виготовлення виробів.
@@ -329,10 +331,10 @@
 										<div class="connect-right__column">
 											<div class="connect-right__item connect-right__item_top">
 												<picture class="connect-right__picture">
-													<source srcset="img/connect/icons/HorizontalLine.png" type="image/png" media="(min-width:1550px)">
-													<source srcset="img/connect/icons/HorizontalLinesmall.png" type="image/png" media="(min-width:992px)">
-													<source srcset="img/connect/icons/Line-top-vert-small.png" type="image/png" media="(max-width:991px)">
-													<img src="img/connect/icons/HorizontalLine.png" alt="line">
+													<source srcset="img/mainpage/connect/icons/HorizontalLine.png" type="image/png" media="(min-width:1550px)">
+													<source srcset="img/mainpage/connect/icons/HorizontalLinesmall.png" type="image/png" media="(min-width:992px)">
+													<source srcset="img/mainpage/connect/icons/Line-top-vert-small.png" type="image/png" media="(max-width:991px)">
+													<img src="img/mainpage/connect/icons/HorizontalLine.png" alt="line">
 												</picture>
 												<a href="" class="connect-right__button btn">Зв‘язатися</a>
 											</div>
@@ -361,7 +363,7 @@
 					</div>
 				</div>
 				<div class="connect__image-ibg">
-					<picture><source srcset="img/connect/bg.webp" type="image/webp"><img src="img/connect/bg.jpg" alt="cover"></picture>
+					<picture><source srcset="img/mainpage/connect/bg.webp" type="image/webp"><img src="img/mainpage/connect/bg.jpg" alt="cover"></picture>
 				</div>
 			</section>
 			<section class="models">
@@ -376,7 +378,7 @@
 								<div class="models__slide models__row swiper-slide">
 									<div class="models__column">
 										<div class="models__item">
-											<div class="models__img"><picture><source srcset="img/models/door.webp" type="image/webp"><img src="img/models/door.jpg" alt="door"></picture></div>
+											<div class="models__img"><picture><source srcset="img/mainpage/models/door.webp" type="image/webp"><img src="img/mainpage/models/door.jpg" alt="door"></picture></div>
 											<div class="models__subtitle card-text">Vinorit, Grey oak</div>
 											<div class="models__text">Власне автономне промислове підприємство дає можливість здійснити контроль на всіх етапах виробництва та забезпечити безперебійні постачання виробів в необхідних обємах.
 											</div>
@@ -386,7 +388,7 @@
 								<div class="models__slide models__row swiper-slide">
 									<div class="models__column">
 										<div class="models__item">
-											<div class="models__img"><picture><source srcset="img/models/door.webp" type="image/webp"><img src="img/models/door.jpg" alt="door"></picture></div>
+											<div class="models__img"><picture><source srcset="img/mainpage/models/door.webp" type="image/webp"><img src="img/mainpage/models/door.jpg" alt="door"></picture></div>
 											<div class="models__subtitle card-text">Vinorit, Grey oak</div>
 											<div class="models__text">Власне автономне промислове підприємство дає можливість здійснити контроль на всіх етапах виробництва та забезпечити безперебійні постачання виробів в необхідних обємах.
 											</div>
@@ -396,7 +398,7 @@
 								<div class="models__slide models__row swiper-slide">
 									<div class="models__column">
 										<div class="models__item">
-											<div class="models__img"><picture><source srcset="img/models/door.webp" type="image/webp"><img src="img/models/door.jpg" alt="door"></picture></div>
+											<div class="models__img"><picture><source srcset="img/mainpage/models/door.webp" type="image/webp"><img src="img/mainpage/models/door.jpg" alt="door"></picture></div>
 											<div class="models__subtitle card-text">Vinorit, Grey oak</div>
 											<div class="models__text">Власне автономне промислове підприємство дає можливість здійснити контроль на всіх етапах виробництва та забезпечити безперебійні постачання виробів в необхідних обємах.
 											</div>
@@ -406,7 +408,7 @@
 								<div class="models__slide models__row swiper-slide">
 									<div class="models__column">
 										<div class="models__item">
-											<div class="models__img"><picture><source srcset="img/models/door.webp" type="image/webp"><img src="img/models/door.jpg" alt="door"></picture></div>
+											<div class="models__img"><picture><source srcset="img/mainpage/models/door.webp" type="image/webp"><img src="img/mainpage/models/door.jpg" alt="door"></picture></div>
 											<div class="models__subtitle card-text">Vinorit, Grey oak</div>
 											<div class="models__text">Власне автономне промислове підприємство дає можливість здійснити контроль на всіх етапах виробництва та забезпечити безперебійні постачання виробів в необхідних обємах.
 											</div>
@@ -416,7 +418,7 @@
 								<div class="models__slide models__row swiper-slide">
 									<div class="models__column">
 										<div class="models__item">
-											<div class="models__img"><picture><source srcset="img/models/door.webp" type="image/webp"><img src="img/models/door.jpg" alt="door"></picture></div>
+											<div class="models__img"><picture><source srcset="img/mainpage/models/door.webp" type="image/webp"><img src="img/mainpage/models/door.jpg" alt="door"></picture></div>
 											<div class="models__subtitle card-text">Vinorit, Grey oak</div>
 											<div class="models__text">Власне автономне промислове підприємство дає можливість здійснити контроль на всіх етапах виробництва та забезпечити безперебійні постачання виробів в необхідних обємах.
 											</div>
@@ -426,7 +428,7 @@
 								<div class="models__slide models__row swiper-slide">
 									<div class="models__column">
 										<div class="models__item">
-											<div class="models__img"><picture><source srcset="img/models/door.webp" type="image/webp"><img src="img/models/door.jpg" alt="door"></picture></div>
+											<div class="models__img"><picture><source srcset="img/mainpage/models/door.webp" type="image/webp"><img src="img/mainpage/models/door.jpg" alt="door"></picture></div>
 											<div class="models__subtitle card-text">Vinorit, Grey oak</div>
 											<div class="models__text">Власне автономне промислове підприємство дає можливість здійснити контроль на всіх етапах виробництва та забезпечити безперебійні постачання виробів в необхідних обємах.
 											</div>
@@ -436,7 +438,7 @@
 								<div class="models__slide models__row swiper-slide">
 									<div class="models__column">
 										<div class="models__item">
-											<div class="models__img"><picture><source srcset="img/models/door.webp" type="image/webp"><img src="img/models/door.jpg" alt="door"></picture></div>
+											<div class="models__img"><picture><source srcset="img/mainpage/models/door.webp" type="image/webp"><img src="img/mainpage/models/door.jpg" alt="door"></picture></div>
 											<div class="models__subtitle card-text">Vinorit, Grey oak</div>
 											<div class="models__text">Власне автономне промислове підприємство дає можливість здійснити контроль на всіх етапах виробництва та забезпечити безперебійні постачання виробів в необхідних обємах.
 											</div>
@@ -446,7 +448,7 @@
 								<div class="models__slide models__row swiper-slide">
 									<div class="models__column">
 										<div class="models__item">
-											<div class="models__img"><picture><source srcset="img/models/door.webp" type="image/webp"><img src="img/models/door.jpg" alt="door"></picture></div>
+											<div class="models__img"><picture><source srcset="img/mainpage/models/door.webp" type="image/webp"><img src="img/mainpage/models/door.jpg" alt="door"></picture></div>
 											<div class="models__subtitle card-text">Vinorit, Grey oak</div>
 											<div class="models__text">Власне автономне промислове підприємство дає можливість здійснити контроль на всіх етапах виробництва та забезпечити безперебійні постачання виробів в необхідних обємах.
 											</div>
@@ -472,14 +474,14 @@
 				<div class="footer__container">
 					<nav class="footer__row">
 						<div class="footer__column footer__column_logo">
-							<a href="index.html" class="footer__logo"><img src="img/main/icons/Logo.svg" alt=""></a>
+							<a href="index.html" class="footer__logo"><img src="img/mainpage/main/icons/Logo.svg" alt=""></a>
 						</div>
 						<div class="footer__column footer__column_menu">
 							<div class="footer__item">
 								<div class="footer__menu menu">
 									<ul class="menu__list">
 										<li class="menu__item">
-											<a href="#" class="menu__link">Про компанію</a>
+											<a href="aboutcompany.html" class="menu__link">Про компанію</a>
 										</li>
 										<li class="menu__item">
 											<a href="#" class="menu__link">Типи конструкцій</a>
@@ -513,7 +515,7 @@
 					</nav>
 				</div>
 				<div class="footer__image-ibg">
-					<picture><source srcset="img/footer/handle.webp" type="image/webp"><img src="img/footer/handle.png" alt="handle"></picture>
+					<picture><source srcset="img/mainpage/footer/handle.webp" type="image/webp"><img src="img/mainpage/footer/handle.png" alt="handle"></picture>
 				</div>
 			</div>
 			<div class="footer__bottom">
@@ -521,7 +523,7 @@
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20221207155456"></script>
+	<script src="js/app.min.js?_v=20221209031022"></script>
 </body>
 
 </html>
