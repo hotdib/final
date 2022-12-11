@@ -3480,6 +3480,16 @@
                 },
                 on: {}
             });
+            if (document.querySelector(".swiper-table")) new core(".swiper-table", {
+                modules: [ Navigation ],
+                observer: true,
+                observeParents: true,
+                slidesPerView: 2,
+                autoHeight: true,
+                speed: 800,
+                slideToClickedSlide: true,
+                on: {}
+            });
         }
         window.addEventListener("load", (function(e) {
             initSliders();
