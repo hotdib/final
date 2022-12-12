@@ -693,8 +693,8 @@ body {
 .hero__image-ibg {
   position: fixed;
   width: 100%;
-  height: 110%;
-  top: -30px;
+  height: 120%;
+  top: -60px;
   left: 0;
   z-index: -10;
 }
@@ -3415,6 +3415,13 @@ button.swiper-pagination-bullet {
   }
 }
 
+@media (max-width: 61.99875em) and (orientation: landscape) {
+  .hero__image-ibg {
+    top: -50px;
+    height: 125vh;
+  }
+}
+
 @media (max-width: 60.3125em) {
   .data__map .data__btn {
     width: 230px;
@@ -3837,9 +3844,8 @@ button.swiper-pagination-bullet {
   }
 
   .hero__image-ibg {
-    width: 100%;
-    height: 88%;
-    top: 10px;
+    height: 88vh;
+    top: 0px;
   }
 
   .hero__image-ibg img {
@@ -4255,9 +4261,8 @@ button.swiper-pagination-bullet {
 
 @media (max-width: 36.0625em) {
   .hero__image-ibg {
-    width: 100%;
-    height: 110%;
-    top: -10px;
+    height: 110vh;
+    top: -20px;
   }
 }
 
@@ -5002,11 +5007,6 @@ button.swiper-pagination-bullet {
 }
 
 @media (orientation: landscape) {
-  .hero__image-ibg {
-    top: -50px;
-    height: 125%;
-  }
-
   .hero-starter__image-ibg {
     top: -20px;
   }
