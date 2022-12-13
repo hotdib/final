@@ -3742,7 +3742,23 @@
                 slideToClickedSlide: true,
                 scrollbar: {
                     el: ".swiper-scrollbar",
-                    draggable: true
+                    draggable: true,
+                    dragSize: 30
+                },
+                on: {}
+            });
+            if (document.querySelector(".swiper-table-down")) new core(".swiper-table-down", {
+                modules: [ Scrollbar ],
+                observer: true,
+                observeParents: true,
+                slidesPerView: 2,
+                autoHeight: true,
+                speed: 900,
+                slideToClickedSlide: true,
+                scrollbar: {
+                    el: ".swiper-scrollbar",
+                    draggable: true,
+                    dragSize: 30
                 },
                 on: {}
             });
