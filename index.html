@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20221214151651">
+	<link rel="stylesheet" href="css/style.min.css?_v=20221214223612">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -351,7 +351,7 @@
 													<source srcset="img/mainpage/connect/icons/Line-top-vert-small.png" type="image/png" media="(max-width:991px)">
 													<img src="img/mainpage/connect/icons/HorizontalLine.png" alt="line">
 												</picture>
-												<a href="contacts.html" data-ripple class="connect-right__button btn">Зв‘язатися</a>
+												<a href="#" data-ripple data-popup="#popup" class="connect-right__button btn">Зв‘язатися</a>
 											</div>
 										</div>
 										<div class="connect-right__column">
@@ -550,7 +550,46 @@
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20221214151651"></script>
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" aria-label="Закрити поп-ап" class="popup__close"></button>
+				<div class="popup__row">
+					<div class="popup__column popup__column_img">
+						<div class="popup__item popup__item_img">
+							<div class="popup__img">
+								<picture><source srcset="img/mainpage/connect/pop-up.webp" type="image/webp"><img src="img/mainpage/connect/pop-up.jpg" alt="popup-img"></picture>
+							</div>
+						</div>
+					</div>
+					<div class="popup__column popup__column_text">
+						<div class="popup__item popup__item_text">
+							<div class="popup__title">Подача запиту</div>
+							<div class="popup__subtitle">Залиште Ваші контактні дані та наш менеджер зв'яжеться з Вами найближчим часом</div>
+							<form data-ajax id="form" action="files/sendmail/sendmail.php" class="popup__form" method="POST">
+								<ul class="popup__list">
+									<li class="popup__list-item list-item">
+										<p class="list-item__title">Ваше ім'я та прізвище</p>
+										<input data-error="Заповніть обов'язкове поле" class="list-item__input" placeholder="Ім'я та Прізвище" data-required type="text" name="name" id="">
+									</li>
+									<li class="popup__list-item list-item">
+										<p class="list-item__title">Ваш номер телефону</p>
+										<input data-error="Заповніть обов'язкове поле" class="list-item__input" placeholder="Номер телефону" data-required type="tel" name="tel" id="">
+									</li>
+									<li class="popup__list-item list-item">
+										<p class="list-item__title">Ваш e-mail</p>
+										<input data-required="email" data-validate data-error="Вибачте, ви ввели невірний e-mail" class="list-item__input" placeholder="E-mail" required type="email" name="email" id="">
+									</li>
+								</ul>
+								<button aria-label="Подати запит" class="popup__btn" type="submit" name="submit"><span>Подати запит</span></button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20221214223612"></script>
 </body>
 
 </html>
