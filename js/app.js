@@ -734,7 +734,7 @@
                             form.classList.remove("_sending");
                             formSent(form, responseResult);
                         } else {
-                            alert("Помилка");
+                            alert("Помилка1");
                             form.classList.remove("_sending");
                         }
                     } else if (form.hasAttribute("data-dev")) {

@@ -22,7 +22,7 @@
 	*/
 
 	//Від кого лист
-	$mail->setFrom('from@gmail.com', 'Лист від потенційного замовника'); // Вказати потрібний E-mail
+	$mail->setFrom('vlad2000yatsenko@gmail.com', 'Лист від потенційного замовника'); // Вказати потрібний E-mail
 	//Кому відправити
 	$mail->addAddress('vlad2000yatsenko@gmail.com'); // Вказати потрібний E-mail
 	//Тема листа
@@ -61,7 +61,7 @@
 
 	//Відправляємо
 	if (!$mail->send()) {
-		$message = 'Помилка';
+		$message = 'Помилка2';
 	} else {
 		$message = 'Дані надіслані!';
 	}
