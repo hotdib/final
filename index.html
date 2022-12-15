@@ -4,12 +4,25 @@
 <head>
 	<title>Головна Arma Doors</title>
 	<meta charset="UTF-8">
+	<!-- Виправлення відображення номеру телефона на айфонах -->
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20221215002245">
+	<link rel="stylesheet" href="css/style.min.css?_v=20221215181049">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Короткий опис сторінки -->
+	<meta name="description" content="Компанія «Arma» заснована в 2012 році і є найбільшим виробником вхідних металевих  дверей в Україні. Наші вироби поставляються споживачам України та інших країн Європи і Азї.">
+	<!-- Ключові слова на сторінці -->
+	<meta name="keywords" content="Компанія «Arma», вхідні металеві двері в Україні, замовити двері, моделі вхідних дверей">
+	<!-- Перенаправлення на головну при помилці 404 -->
+	<!-- <meta http-equiv="refresh" content="5; url=index.html"> -->
+	<!-- Автор сторінки -->
+	<meta name="Author" content="Arma DOORS © 2022">
+	<!-- Авторські права -->
+	<meta name="Copyright" content="Arma DOORS © 2022">
+	<!-- Адреса автора -->
+	<meta name="Address" content="м. Київ, вул. Тараса Шевченко 321">
 </head>
 
 <body>
@@ -566,7 +579,8 @@
 						<div class="popup__item popup__item_text">
 							<div class="popup__title">Подача запиту</div>
 							<div class="popup__subtitle">Залиште Ваші контактні дані та наш менеджер зв'яжеться з Вами найближчим часом</div>
-							<form data-ajax id="form" action="https://formspree.io/f/mdovnnae" class="popup__form" method="POST">
+							<!-- https://formspree.io/f/mdovnnae -->
+							<form data-popup-message="#popup2" data-dev id="form" action="#" class="popup__form" method="POST">
 								<ul class="popup__list">
 									<li class="popup__list-item list-item">
 										<p class="list-item__title">Ваше ім'я та прізвище</p>
@@ -576,7 +590,7 @@
 										<p class="list-item__title">Ваш номер телефону</p>
 										<input data-error="Заповніть обов'язкове поле" class="list-item__input" placeholder="Номер телефону" data-required type="tel" name="tel" id="">
 									</li>
-									<li class="popup__list-item list-item">
+									<li class="popup__list-item list-item list-item_email">
 										<p class="list-item__title">Ваш e-mail</p>
 										<input data-required="email" data-validate data-error="Вибачте, ви ввели невірний e-mail" class="list-item__input" placeholder="E-mail" required type="email" name="email" id="">
 									</li>
@@ -589,7 +603,18 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20221215002245"></script>
+	<div id="popup2" aria-hidden="true" class="popup2">
+		<div class="popup2__wrapper">
+			<div class="popup2__content">
+				<div class="popup2__body">
+					<button data-close type="button" aria-label="Закрити поп-ап" class="popup2__close"></button>
+					<div class="popup2__title">Вітаю! Запит успішно надіслано.</div>
+					<div class="popup2__subtitle">Наш менеджер зв'яжеться з Вами найближчим часом</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20221215181049"></script>
 </body>
 
 </html>
